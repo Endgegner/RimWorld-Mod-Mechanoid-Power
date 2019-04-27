@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="BuildingBase" Name="ShipPartBase" Abstract="True">
+    <thingClass>Building_CrashedShipPart</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <pathCost>150</pathCost>
+    <blockWind>true</blockWind>
+    <passability>Impassable</passability>
+    <fillPercent>1.0</fillPercent>
+    <size>(6,3)</size>
+    <statBases>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Beauty>-200</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+	<rotatable>true</rotatable>
+    <selectable>true</selectable>
+    <neverMultiSelect>true</neverMultiSelect>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <drawerType>MapMeshOnly</drawerType>
+    <repairEffect>ConstructMetal</repairEffect>
+    <castEdgeShadows>false</castEdgeShadows>
+    <forceDebugSpawnable>true</forceDebugSpawnable>
+    <building>
+	  <claimable>false</claimable>
+      <soundAmbient>CrashedShipPart_Ambience</soundAmbient>
+      <roofCollapseDamageMultiplier>0.2</roofCollapseDamageMultiplier>
+    </building>
+	<comps>
+      <li Class="CompProperties_SnowExpand" />
+      <li Class="CompProperties_SpawnerMechanoidsOnDamaged" />
+	</comps>
+  </ThingDef>
+  
+   <ThingDef ParentName="ShipPartBase">
+    <defName>MPC_CrashedPoisonShipPart</defName><!-- CrashedPsychicEmanatorShipPart CrashedPoisonShipPart  -->
+    <label>crashed ship part (power)</label>
+    <description>A mysterious crashed piece of a spaceship. It may contain exotic materials, computers, even AI personas. This kind of technology can be dangerous.</description>
+    <graphicData>
+      <texPath>Things/Building/Exotic/CrashedPoisonShipPart</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <color>(193, 255, 193)</color> <!-- 173, 255, 47 # 238, 255, 184 -->
+      <drawSize>(6,3)</drawSize>
+	  <shadowData>
+	  <volume>(5.5, 1.0, 2.45)</volume> <!-- 5.7, 1.0, 2.37 <offset>(-0.16, 0, -0.08)</offset> -->
+	  </shadowData>
+    </graphicData>
+    <killedLeavings>
+      <MPC_MechanoidPCell>1</MPC_MechanoidPCell>
+      <!-- <AIPersonaCore>1</AIPersonaCore> -->
+      <Steel>175</Steel>
+      <Silver>425</Silver>
+	  <Plasteel>110</Plasteel>
+      <ChunkSlagSteel>5</ChunkSlagSteel>
+    </killedLeavings>
+	<comps>
+      <li Class="CompProperties_PsychicDrone" />
+      <li Class="CompProperties_AnimalInsanityPulser" />
+	  <li Class="CompProperties_PlantHarmRadius">
+	  <radiusPerDayCurve>
+      <points>
+		<li>0,5</li>
+		<li>1.5,18</li>
+		<li>6,40</li>
+		<li>20,100</li>
+	  </points>
+	  </radiusPerDayCurve>
+	  <harmFrequencyPerArea>0.015</harmFrequencyPerArea>
+	  </li>
+	</comps>
+  </ThingDef>
+
+</Defs>
