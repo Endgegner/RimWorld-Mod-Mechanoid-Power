@@ -50,7 +50,7 @@ Idea & Textures * by Skullywag<br>
 Revision & Enhancements * by Trunken<br>
 German Translations * by Endgegner<br>
 Guidance * by Ataman<br>
-Sensei C# * by Atlas<br>
+Sensei C# * Atlas<br>
 
 Based on a mod of RimWorld Alpha 0.14 (17. Juli 2016) (Permissioned)
 
