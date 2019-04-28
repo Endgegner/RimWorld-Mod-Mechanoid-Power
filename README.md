@@ -45,15 +45,15 @@ You ever wanted to be happy about a space ship crashing in your garden yard?
 
 <i>This is it.</i>
 
-<b>License</b>
-- Don't share or redistribute any of the given files and code.
-- Please explicitly ask all authors for their allowance.
+Credits:<br>
+Idea & Textures * by Skullywag<br>
+Revision & Enhancements * by Trunken<br>
+German Translations * by Endgegner<br>
+Guidance * by Ataman<br>
+Sensei C# * by Atlas<br>
 
 Based on a mod of RimWorld Alpha 0.14 (17. Juli 2016) (Permissioned)
 
-Credits:
-Idea & Textures * by Skullywag
-Revision & Enhancements * by Trunken
-German Translations * by Endgegner
-Guidance * by Ataman
-Sensei C# * by Atlas
+<b>License</b>
+- Don't share or redistribute any of the given files and code.
+- Please explicitly ask all authors for their allowance.
