@@ -45,7 +45,7 @@ You ever wanted to be happy about a space ship crashing in your garden yard?
 
 <i>This is it.</i>
 
-### Credits:<br>
+#### Credits:<br>
 Idea & Textures * by Skullywag<br>
 Revision & Enhancements * by Trunken<br>
 German Translations * by Endgegner<br>
@@ -54,6 +54,6 @@ Sensei C# * Atlas<br>
 
 Based on a mod of RimWorld Alpha 0.14 (17. Juli 2016) (Permissioned)
 
-<b>License</b>
+#### License
 - Don't share or redistribute any of the given files and code.
 - Please explicitly ask all authors for their allowance.
