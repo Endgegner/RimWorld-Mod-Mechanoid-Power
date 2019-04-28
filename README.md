@@ -45,7 +45,7 @@ You ever wanted to be happy about a space ship crashing in your garden yard?
 
 <i>This is it.</i>
 
-Credits:<br>
+### Credits:<br>
 Idea & Textures * by Skullywag<br>
 Revision & Enhancements * by Trunken<br>
 German Translations * by Endgegner<br>
