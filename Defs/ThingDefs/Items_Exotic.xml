@@ -39,7 +39,7 @@
     <useHitPoints>true</useHitPoints>
     <statBases>
 	  <Mass>7.5</Mass>
-      <MarketValue>4000</MarketValue>
+      <MarketValue>2000</MarketValue>
       <MaxHitPoints>100</MaxHitPoints>
     </statBases>
     <thingCategories>
