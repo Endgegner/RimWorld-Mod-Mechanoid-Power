@@ -11,7 +11,7 @@
     <letterLabel>Power ship</letterLabel>
     <letterText>A large piece of an ancient ship has crashed nearby.\n\nYour colonists can feel it in the back of their mind, exhorting unspeakable acts. It must have an onboard AI persona with psychic projection ability. And this AI is not friendly.\n\nDestroy it as soon as possible. But beware - it will probably defend itself.</letterText>
     <letterDef>MPC_PausingThreatSmall</letterDef>
-    <baseChance>2.0</baseChance>
+    <baseChance>2</baseChance>
     <minRefireDays>30</minRefireDays>
     <tags>
       <li>MechanoidShip</li>
@@ -19,7 +19,7 @@
     <refireCheckTags>
       <li>MechanoidShip</li>
     </refireCheckTags>
-    <category>ThreatBig</category>
+	<category>ThreatBig</category> <!-- ThreatSmall ShipChunkDrop -->
     <pointsScaleable>true</pointsScaleable>
     <minThreatPoints>450</minThreatPoints>
     <shipPart>MPC_CrashedPoisonShipPart</shipPart><!-- CrashedPoisonShipPart -->

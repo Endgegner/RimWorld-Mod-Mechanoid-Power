@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
-  <version>1.2.0.5</version>
+  <identifier>Mechanoid Power</identifier>
+  <version>1.2.0.8</version>
+    <suggests>
+        <li>More Crashed Ship Parts</li>
+        <li>Mechanoid Blaster</li>
+		<li>Spartan Foundry Warcraft</li>
+    </suggests>
   <manifestUri></manifestUri>
   <downloadUri></downloadUri>
 </Manifest>

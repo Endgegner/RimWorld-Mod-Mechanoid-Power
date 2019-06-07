@@ -25,7 +25,7 @@
     </thingCategories>
     <drawGUIOverlay>false</drawGUIOverlay>
     <tradeTags>
-      <li>Exotic</li>
+      <li>Artifact</li> <!-- ExoticMisc TechHediff -->
     </tradeTags>
   </ThingDef>
   
